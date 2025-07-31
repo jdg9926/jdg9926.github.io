@@ -68,7 +68,7 @@ const projects = [
         title: "AI가 말아주는 와인 추천  25.07.14 ~ 진행중",
         description: "개인 프로젝트로 만들었으며 Python로 진행하여 Open API AI 를 활용한 AI 와인 추천 기능을 구현했습니다.",
         techStack: ["Python", "Java", "Spring boot", "JPA", "MySQL"],
-        live: "http://project-alcohol-recommendation.s3-website.ap-northeast-2.amazonaws.com/wine",
+        live: "http://project-alcohol-recommendation.s3-website.ap-northeast-2.amazonaws.com/",
         github: "https://github.com/jdg9926/project-alcohol-recommendation",
     },
 ];
