@@ -1,18 +1,19 @@
 {
   "files": {
     "main.css": "/sehyun.github.io/static/css/main.82c0a172.css",
-    "main.js": "/sehyun.github.io/static/js/main.5ead5dca.js",
+    "main.js": "/sehyun.github.io/static/js/main.556cb66d.js",
     "static/js/453.29d11538.chunk.js": "/sehyun.github.io/static/js/453.29d11538.chunk.js",
+    "static/media/OMRMainLogo.png": "/sehyun.github.io/static/media/OMRMainLogo.d1569e434374b89d492e.png",
     "static/media/face.jpg": "/sehyun.github.io/static/media/face.0af02978551b6c854c8d.jpg",
     "static/media/wineMainLogo.png": "/sehyun.github.io/static/media/wineMainLogo.9a4f6233926c6b2ac56a.png",
     "static/media/UKAMainLogo.png": "/sehyun.github.io/static/media/UKAMainLogo.c6d7648b39cb9cd4ca1f.png",
     "index.html": "/sehyun.github.io/index.html",
     "main.82c0a172.css.map": "/sehyun.github.io/static/css/main.82c0a172.css.map",
-    "main.5ead5dca.js.map": "/sehyun.github.io/static/js/main.5ead5dca.js.map",
+    "main.556cb66d.js.map": "/sehyun.github.io/static/js/main.556cb66d.js.map",
     "453.29d11538.chunk.js.map": "/sehyun.github.io/static/js/453.29d11538.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.82c0a172.css",
-    "static/js/main.5ead5dca.js"
+    "static/js/main.556cb66d.js"
   ]
 }
