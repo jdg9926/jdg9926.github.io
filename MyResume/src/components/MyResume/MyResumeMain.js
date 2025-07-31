@@ -5,6 +5,7 @@ import { BASE_URL } from "../../api/baseUrl";
 
 import UKAMainLogo from '../../images/UKAMainLogo.png';
 import wineMainLogo from '../../images/wineMainLogo.png';
+import OMRMainLogo from '../../images/OMRMainLogo.png';
 import face from '../../images/face.jpg';
 
 import "./MyResumeMain.css";
@@ -55,11 +56,11 @@ const projects = [
         github: "https://github.com/hms1218/TeamProject-UKA",
     },
     {
-        image: "",
+        image: OMRMainLogo,
         title: "OTT Movie 리뷰 사이트 25.07.01 ~ ",
         description: "팀 프로젝트로 만들었으며 React Native를 활용하여 OTT Movie 리뷰 사이트를 만들었습니다.",
         techStack: ["React", "React Native", "Spring boot", "Java", "JPA", "MySQL" ],
-        live: "#",
+        // live: "#",
         github: "https://github.com/guensoo/TeamProject-OMR",
     },
     {
