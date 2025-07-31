@@ -7,7 +7,6 @@ import UKAMainLogo from '../../images/UKAMainLogo.png';
 import wineMainLogo from '../../images/wineMainLogo.png';
 import face from '../../images/face.jpg';
 
-
 import "./MyResumeMain.css";
 
 const skills = [
