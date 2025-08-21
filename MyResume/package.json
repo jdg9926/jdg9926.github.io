@@ -10,9 +10,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "postbuild": "shx cp build/index.html build/404.html",
-    "deploy": "gh-pages -d build",
-    "predeploy": "npm run build",
-    "clean": "rimraf node_modules build",
+    "build:docs": "npm run build && rimraf docs && shx cp -r build/* docs",
+    "deploy": "npm run build:docs && git add docs && git commit -m 'deploy: update docs' || echo 'no changes' && git push",
+    "clean": "rimraf node_modules build docs",
     "lint": "eslint --ext .js src",
     "test": "react-scripts test --watchAll=false"
   },
@@ -34,15 +34,25 @@
     "@testing-library/user-event": "^13.5.0",
     "eslint": "^9.9.0",
     "eslint-config-react-app": "^7.0.1",
-    "gh-pages": "^6.3.0",
     "rimraf": "^6.0.1",
     "shx": "^0.3.4"
   },
   "eslintConfig": {
-    "extends": ["react-app", "react-app/jest"]
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
   "browserslist": {
-    "production": [">0.2%", "not dead", "not op_mini all"],
-    "development": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"]
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
