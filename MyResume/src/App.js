@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 
-import MyResumeMain from "./components/MyResume/MyResumeMain.js";
+import MyResumeMain from "./components/MyResumeMain.js";
 
 function App() {
     return (
