@@ -10,15 +10,15 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "postbuild": "shx cp build/index.html build/404.html",
-    "build:docs": "npm run build && rimraf docs && shx cp -r build/* docs",
-    "deploy": "npm run build:docs && git add docs && git commit -m 'deploy: update docs' || echo 'no changes' && git push",
-    "clean": "rimraf node_modules build docs",
+    "deploy": "gh-pages -d build",
+    "clean": "rimraf node_modules build",
     "lint": "eslint --ext .js src",
     "test": "react-scripts test --watchAll=false"
   },
   "dependencies": {
     "axios": "^1.10.0",
     "dompurify": "^3.2.6",
+    "gh-pages": "^6.3.0",
     "prop-types": "^15.8.1",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
@@ -32,7 +32,7 @@
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.3.0",
     "@testing-library/user-event": "^13.5.0",
-    "eslint": "^9.9.0",
+    "eslint": "^8.57.1",
     "eslint-config-react-app": "^7.0.1",
     "rimraf": "^6.0.1",
     "shx": "^0.3.4"
