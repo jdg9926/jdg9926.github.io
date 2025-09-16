@@ -2,6 +2,7 @@
 import UKAMainLogo from '../images/UKAMainLogo.png';
 import wineMainLogo from '../images/wineMainLogo.png';
 import OMRMainLogo from '../images/OMRMainLogo.png';
+import festivalLogo from '../images/festivalImg.png';
 
 export const skills = [
   {
@@ -41,6 +42,31 @@ export const skills = [
 
 export const projects = [
   {
+    image: festivalLogo,
+    title: "페스티벌 Go 웹 페이지 사이트 25.08.11 ~ 25.09.18",
+    description:
+      "공공데이터포털의 데이터를 활용한 축제 안내 사이트를 만들었습니다.",
+    techStack: ["Java", "Spring boot", "JPA", "MySQL", "Python"],
+    github: "https://https://github.com/mk0537/Festival_web_project",
+  },
+  {
+    image: wineMainLogo,
+    title: "AI가 말아주는 와인 추천 사이트  25.07.14 ~ 진행중",
+    description:
+      "개인 프로젝트로 만들었으며 Python로 진행하여 Open API AI 를 활용한 AI 와인 추천 기능을 구현했습니다.",
+    techStack: ["Python", "Java", "Spring boot", "JPA", "MySQL"],
+    live: "http://project-alcohol-recommendation.s3-website.ap-northeast-2.amazonaws.com/",
+    github: "https://github.com/jdg9926/project-alcohol-recommendation",
+  },
+  {
+    image: OMRMainLogo,
+    title: "OTT Movie 리뷰 (OMR) 사이트 25.07.01 ~ 25.08.07",
+    description:
+      "모바일 팀 프로젝트로 만들었으며 React Native를 활용하여 OTT Movie 리뷰 사이트를 만들었습니다.",
+    techStack: ["React", "React Native", "Spring boot", "Java", "JPA", "MySQL"],
+    github: "https://github.com/guensoo/TeamProject-OMR",
+  },
+  {
     image: UKAMainLogo,
     title: "UKA 센터 (유기동물센터) 25.06.09 ~ 25.07.04",
     description:
@@ -48,24 +74,6 @@ export const projects = [
     techStack: ["React", "Java", "Spring boot", "JPA", "MySQL"],
     live: "http://teamproject-uka.s3-website.ap-northeast-2.amazonaws.com/",
     github: "https://github.com/hms1218/TeamProject-UKA",
-  },
-  {
-    image: OMRMainLogo,
-    title: "OTT Movie 리뷰 사이트 25.07.01 ~ 25.08.05",
-    description:
-      "모바일 팀 프로젝트로 만들었으며 React Native를 활용하여 OTT Movie 리뷰 사이트를 만들었습니다.",
-    techStack: ["React", "React Native", "Spring boot", "Java", "JPA", "MySQL"],
-    // 라이브 데모 링크 제거 (요청사항)
-    github: "https://github.com/guensoo/TeamProject-OMR",
-  },
-  {
-    image: wineMainLogo,
-    title: "AI가 말아주는 와인 추천  25.07.14 ~ 진행중",
-    description:
-      "개인 프로젝트로 만들었으며 Python로 진행하여 Open API AI 를 활용한 AI 와인 추천 기능을 구현했습니다.",
-    techStack: ["Python", "Java", "Spring boot", "JPA", "MySQL"],
-    live: "http://project-alcohol-recommendation.s3-website.ap-northeast-2.amazonaws.com/",
-    github: "https://github.com/jdg9926/project-alcohol-recommendation",
   },
 ];
 
