@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.35b912a6.css",
-    "main.js": "/static/js/main.37f37fc3.js",
+    "main.js": "/static/js/main.8b2764f5.js",
     "static/js/453.29d11538.chunk.js": "/static/js/453.29d11538.chunk.js",
+    "static/media/festivalImg.png": "/static/media/festivalImg.cdc5527777badcc7f38c.png",
     "static/media/OMRMainLogo.png": "/static/media/OMRMainLogo.d1569e434374b89d492e.png",
     "static/media/face.jpg": "/static/media/face.0af02978551b6c854c8d.jpg",
     "static/media/wineMainLogo.png": "/static/media/wineMainLogo.9a4f6233926c6b2ac56a.png",
     "static/media/UKAMainLogo.png": "/static/media/UKAMainLogo.c6d7648b39cb9cd4ca1f.png",
     "index.html": "/index.html",
     "main.35b912a6.css.map": "/static/css/main.35b912a6.css.map",
-    "main.37f37fc3.js.map": "/static/js/main.37f37fc3.js.map",
+    "main.8b2764f5.js.map": "/static/js/main.8b2764f5.js.map",
     "453.29d11538.chunk.js.map": "/static/js/453.29d11538.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.35b912a6.css",
-    "static/js/main.37f37fc3.js"
+    "static/js/main.8b2764f5.js"
   ]
 }
